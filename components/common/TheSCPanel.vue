@@ -84,7 +84,7 @@ export default {
   position: fixed;
   left: 0;
   bottom: 0;
-  padding: 0 5%;
+  padding: 0 5% 10px;
   z-index: 10;
   background: linear-gradient(
     to right,
@@ -114,9 +114,9 @@ export default {
 }
 
 .sc-panel__artwork {
-  width: $height-sc-panel * 0.8;
-  height: $height-sc-panel * 0.8;
-  min-width: $height-sc-panel * 0.8;
+  width: $height-sc-panel * 0.6;
+  height: $height-sc-panel * 0.6;
+  min-width: $height-sc-panel * 0.6;
   background-color: white;
   background-position: center;
   background-repeat: no-repeat;
