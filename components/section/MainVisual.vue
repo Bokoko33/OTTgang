@@ -9,6 +9,7 @@
         autoplay
         muted
         loop
+        playsinline
       ></video>
     </figure>
     <h1 class="main-visual__logo" id="js-main-visual-logo">
