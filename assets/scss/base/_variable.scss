@@ -3,9 +3,9 @@ $color-magenta: #b92c92;
 $color-purple: #754faa;
 $color-blue: #3463ae;
 
-$height-g-header: 92px;
-$height-g-footer: 200px;
 $height-sc-panel: 75px;
+$height-g-header: 92px;
+$height-g-footer: 200px + $height-sc-panel;
 
 $margin-side: 6%;
 $margin-works-list: 30px;

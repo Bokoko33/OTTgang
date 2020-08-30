@@ -32,9 +32,8 @@
 .footer {
   width: 100%;
   height: $height-g-footer;
-  padding: 0 $margin-side 10px;
+  padding: 0 $margin-side $height-sc-panel;
   background-color: $color-black;
-  margin-bottom: $height-sc-panel;
 }
 
 .footer__content {
