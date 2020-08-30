@@ -47,6 +47,18 @@ export default {
     return {
       worksData: [
         {
+          title: 'RAPID FIRE',
+          composer: 'Bomaye',
+          soundCloudsrc: '669062363',
+          link: '/rapid-fire',
+        },
+        {
+          title: 'Still Kids',
+          composer: 'Bomaye',
+          soundCloudsrc: '669062363',
+          link: '/still-kids',
+        },
+        {
           title: 'foaming',
           composer: 'nekami',
           soundCloudsrc: '669062363',

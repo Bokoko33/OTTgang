@@ -4,9 +4,9 @@
       :iconSrc="'icon_sawasick.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
       :soundCloudSrc="'548617305'"
-      :prevImageSrc="'artwork_foaming.jpg'"
+      :prevImageSrc="'artwork_silent-morning.jpg'"
       :nextImageSrc="'artwork_yoake.jpg'"
-      :prevLink="'/foaming'"
+      :prevLink="'/silent-morning'"
       :nextLink="'/yoake'"
     >
       <template v-slot:title>i</template>

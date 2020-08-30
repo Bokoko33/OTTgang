@@ -59,41 +59,49 @@
       <div class="work-details__others">
         <h2 class="heading--work-details">Others</h2>
         <div class="work-details__nav">
-          <nuxt-link
-            v-if="prevLink !== ''"
-            :to="prevLink"
+          <a
+            :event="hasLink(prevLink)"
+            :href="prevLink"
             class="work-details__nav__item work-details__nav--prev"
           >
             <img
+              v-if="prevLink"
               class="work-details__nav__img"
               :src="require(`~/assets/images/artworks/${prevImageSrc}`)"
               alt="前の作品のアートワーク画像"
             />
-            <p class="work-details__nav__text work-details__nav__text--prev">
+            <p
+              v-if="prevLink"
+              class="work-details__nav__text work-details__nav__text--prev"
+            >
               Previous
             </p>
-          </nuxt-link>
-          <nuxt-link to="/#works" class="work-details__nav__works-top">
+          </a>
+          <a href="/#works" class="work-details__nav__works-top">
             <img
               class="work-details__nav__works-top--img"
               src="~/assets/images/svg/icon_works_top.svg"
               alt=""
             />
-          </nuxt-link>
-          <nuxt-link
-            v-if="nextLink !== ''"
-            :to="nextLink"
+          </a>
+          <a
+            :event="hasLink(nextLink)"
+            :href="nextLink"
             class="work-details__nav__item work-details__nav--next"
           >
             <img
+              v-if="nextLink"
               class="work-details__nav__img"
               :src="require(`~/assets/images/artworks/${nextImageSrc}`)"
               alt="次の作品のアートワーク画像"
             />
-            <p class="work-details__nav__text work-details__nav__text--next">
+            <p
+              v-if="nextLink"
+              class="work-details__nav__text work-details__nav__text--next"
+            >
               Next
             </p>
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </section>
@@ -130,12 +138,20 @@ export default {
   components: {
     DecoLine,
   },
+  computed: {
+    hasLink(link) {
+      return function () {
+        if (link === '') return '';
+        else return 'click';
+      };
+    },
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .work-details {
-  margin: 0 auto 60px;
+  margin: 10px auto 60px;
   @include device-pc {
     margin-bottom: 100px;
   }

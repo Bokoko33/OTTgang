@@ -5,9 +5,9 @@
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
       :soundCloudSrc="'434414340'"
       :prevImageSrc="'artwork_foaming.jpg'"
-      :nextImageSrc="'artwork_foaming.jpg'"
+      :nextImageSrc="'artwork_silent-morning.jpg'"
       :prevLink="'/foaming'"
-      :nextLink="'/foaming'"
+      :nextLink="'/silent-morning'"
     >
       <template v-slot:title>Reviving Armor</template>
       <template v-slot:composer>nekami</template>
