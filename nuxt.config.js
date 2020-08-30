@@ -14,6 +14,10 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
+    htmlAttrs: {
+      lang: 'ja',
+      prefix: 'og: http://ogp.me/ns#',
+    },
     title: 'OTTgang',
     meta: [
       { charset: 'utf-8' },
@@ -22,7 +26,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          '我々OTTgang（オーティーティーギャング）は、PC一台で音楽制作をする卓です。劇伴、EDM、HipHopなど、ジャンルを問わず頭の中にある自分の世界観を音楽で表現し、それらをOTTサービス（Youtube、SoundCloudなど）を用いて世界中に公開していきます。',
+          'OTTgang（オーティーティーギャング）は、卓展2020で音楽制作をする卓です。',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
@@ -35,7 +39,7 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '我々OTTgang（オーティーティーギャング）は、PC一台で音楽制作をする卓です。劇伴、EDM、HipHopなど、ジャンルを問わず頭の中にある自分の世界観を音楽で表現し、それらをOTTサービス（Youtube、SoundCloudなど）を用いて世界中に公開していきます。',
+          'OTTgang（オーティーティーギャング）は、卓展2020で音楽制作をする卓です。',
       },
       { name: 'twitter:card', content: 'summary' },
     ],
