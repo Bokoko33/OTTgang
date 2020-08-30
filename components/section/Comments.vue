@@ -114,8 +114,6 @@ export default {
   min-height: 40px;
   margin: 30px auto 0;
   background-color: $color-magenta;
-  outline: none;
-  border: none;
   border-radius: 2px;
   color: white;
   font-size: 16px;
