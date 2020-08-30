@@ -28,7 +28,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '~/assets/images/ott_logo.png',
+        content: 'https://ottgang.netlify.app/ott_logo.png',
       },
       { hid: 'og:title', property: 'og:title', content: 'OTTgang' },
       {
