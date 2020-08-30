@@ -2,7 +2,7 @@
   <div class="nav-sp-icon__wrap">
     <div
       class="nav-sp-icon"
-      @touchstart="switchState()"
+      @click="switchState()"
       :class="{ 'nav-sp-icon--is-open': $store.state.isOpenModal }"
     >
       <div class="nav-sp-icon__bar">
