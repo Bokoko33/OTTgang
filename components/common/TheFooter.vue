@@ -34,6 +34,7 @@
   height: $height-g-footer;
   padding: 0 $margin-side 10px;
   background-color: $color-black;
+  margin-bottom: $height-sc-panel;
 }
 
 .footer__content {
