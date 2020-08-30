@@ -1,0 +1,20 @@
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  @include device-pc {
+    font-size: 48px;
+  }
+}
+
+.heading--work-details {
+  font-size: 28px;
+  font-weight: 700;
+  color: transparent;
+  margin-bottom: 10px;
+  -webkit-text-stroke: 1px white;
+  @include device-pc {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+body {
+  background-color: $color-black;
+  font-family: 'Avenir', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+section {
+  width: 100% - $margin-side * 2;
+  margin: 0 auto;
+  padding-top: 90px;
+  background-color: $color-black;
+  max-width: $width-max-pc;
+  @include device-pc {
+    padding-top: 180px;
+  }
+}
+
+.content {
+  width: 100%;
+  min-height: calc(100vh - #{$height-g-footer});
+  background-color: $color-black;
+  padding-top: 1px; //1以上ないとmargin-topが消える
+}
+
+.br__sp-only {
+  display: inline;
+  @include device-pc {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+<template>
+  <div class="page-himmel">
+    <WorkDetails
+      :iconSrc="'icon_mona.jpg'"
+      :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
+      :soundCloudSrc="'246827656'"
+      :prevImageSrc="'artwork_silly.jpg'"
+      :nextImageSrc="'artwork_SoundScape.jpg'"
+      :prevLink="'/silly'"
+      :nextLink="'/soundscape'"
+    >
+      <template v-slot:title>himmel</template>
+      <template v-slot:composer>mone</template>
+      <template v-slot:caption>
+        リズミカルに並ぶ雲、美しい色の変化、キラキラの星空など、様々な表情を見せてくれる空をイメージした曲です。
+      </template>
+    </WorkDetails>
+  </div>
+</template>
+
+<script>
+import WorkDetails from '~/components/section/WorkDetails';
+
+export default {
+  components: {
+    WorkDetails,
+  },
+};
+</script>
