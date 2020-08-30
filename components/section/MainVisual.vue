@@ -110,7 +110,7 @@ export default {
 
 .main-visual__side-text--left,
 .main-visual__side-text--right {
-  width: 24%;
+  width: 20%;
   max-width: 90px;
   position: absolute;
   @include device-pc {
@@ -120,11 +120,11 @@ export default {
 
 .main-visual__side-text--left {
   left: -27px;
-  bottom: 120px;
+  bottom: 140px;
 }
 
 .main-visual__side-text--right {
-  right: -27px;
+  right: -15px;
   bottom: $height-sc-panel + 300px;
   @include device-pc {
     top: 16vh;
