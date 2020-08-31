@@ -2,7 +2,7 @@ import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 
 export const state = () => ({
   isOpenModal: false,
-  isShowLogo: true,
+  isShowLogo: false,
 });
 
 export const mutations = {

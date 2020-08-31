@@ -138,6 +138,9 @@ export default {
   components: {
     DecoLine,
   },
+  mounted() {
+    this.$store.commit('showLogo');
+  },
   computed: {
     hasLink(link) {
       return function () {

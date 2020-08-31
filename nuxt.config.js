@@ -32,7 +32,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://ottgang.netlify.app/ott_logo.png',
+        content: 'https://ottgang.netlify.app/ogp_image.jpg',
       },
       { hid: 'og:title', property: 'og:title', content: 'OTTgang' },
       {
