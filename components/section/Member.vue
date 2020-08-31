@@ -61,7 +61,7 @@ export default {
         },
         {
           icon_path: require('~/assets/images/icons/icon_sharp.jpg'),
-          class: '3M',
+          class: '3N',
           name: 'シャープ',
           role: '',
         },
@@ -73,7 +73,7 @@ export default {
         },
         {
           icon_path: require('~/assets/images/icons/icon_meiji.jpg'),
-          class: '2M',
+          class: '2O',
           name: '明治',
           role: '',
         },
@@ -108,9 +108,9 @@ export default {
           role: '',
         },
       ],
-    }
+    };
   },
-}
+};
 </script>
 
 <style lang="scss" scoped>
