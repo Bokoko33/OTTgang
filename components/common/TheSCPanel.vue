@@ -10,7 +10,7 @@
       </div>
       <div
         class="sc-panel__button"
-        @touchstart="handleButton()"
+        @click="handleButton()"
         :class="{ playing: playing, pausing: !playing }"
       ></div>
     </div>
@@ -94,6 +94,10 @@ export default {
   );
   transform: translateY($height-sc-panel);
   transition: all 0.2s;
+  @include device-pc {
+    padding-bottom: 0;
+    height: 60px;
+  }
 }
 
 .sc-panel__content {
