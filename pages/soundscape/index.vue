@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_shakadeesu.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'517123572'"
+      :soundCloudSrc="'884874601'"
       :prevImageSrc="'artwork_himmel.jpg'"
       :nextImageSrc="'artwork_closing-for-the-day.jpg'"
       :prevLink="'/himmel'"

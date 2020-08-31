@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_nekami.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'669062363'"
+      :soundCloudSrc="'884881756'"
       :prevImageSrc="'artwork_still-kids.jpg'"
       :nextImageSrc="'artwork_RevivingArmor.jpg'"
       :prevLink="'/still-kids'"

@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_sawasick.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'548617305'"
+      :soundCloudSrc="'884879545'"
       :prevImageSrc="'artwork_silent-morning.jpg'"
       :nextImageSrc="'artwork_yoake.jpg'"
       :prevLink="'/silent-morning'"

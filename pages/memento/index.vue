@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_veni.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'455848674'"
+      :soundCloudSrc="'884878213'"
       :prevImageSrc="'artwork_yoake.jpg'"
       :nextImageSrc="'artwork_silly.jpg'"
       :prevLink="'/yoake'"

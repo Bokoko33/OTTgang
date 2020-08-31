@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_nekami.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'434414340'"
+      :soundCloudSrc="'884882260'"
       :prevImageSrc="'artwork_foaming.jpg'"
       :nextImageSrc="'artwork_silent-morning.jpg'"
       :prevLink="'/foaming'"

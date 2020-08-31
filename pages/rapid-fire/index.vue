@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_bomaye.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'548617305'"
+      :soundCloudSrc="'884960956'"
       :prevImageSrc="''"
       :nextImageSrc="'artwork_still-kids.jpg'"
       :prevLink="''"

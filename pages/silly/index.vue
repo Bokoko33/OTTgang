@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_meiji.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'290383449'"
+      :soundCloudSrc="'884878906'"
       :prevImageSrc="'artwork_memento.jpg'"
       :nextImageSrc="'artwork_himmel.jpg'"
       :prevLink="'/memento'"

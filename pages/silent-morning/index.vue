@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_none.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'608325246'"
+      :soundCloudSrc="'884884753'"
       :prevImageSrc="'artwork_RevivingArmor.jpg'"
       :nextImageSrc="'artwork_i.jpg'"
       :prevLink="'/reviving-armor'"

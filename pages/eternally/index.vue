@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_cornbutter.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'374115419'"
+      :soundCloudSrc="'884876980'"
       :prevImageSrc="'artwork_mid.jpg'"
       :nextImageSrc="''"
       :prevLink="'/mid'"

@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_mona.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'246827656'"
+      :soundCloudSrc="'884872567'"
       :prevImageSrc="'artwork_silly.jpg'"
       :nextImageSrc="'artwork_SoundScape.jpg'"
       :prevLink="'/silly'"

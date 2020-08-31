@@ -3,7 +3,7 @@
     <WorkDetails
       :iconSrc="'icon_pepper.jpg'"
       :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
-      :soundCloudSrc="'432560838'"
+      :soundCloudSrc="'884876110'"
       :prevImageSrc="'artwork_closing-for-the-day.jpg'"
       :nextImageSrc="'artwork_eternally.jpg'"
       :prevLink="'/closing-for-the-day'"
