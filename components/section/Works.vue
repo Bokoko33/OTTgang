@@ -23,6 +23,7 @@
           ></iframe>
         </div>-->
         <div class="works__youtube--wrap">
+          <p class="works__list__sc--alt">Loading...</p>
           <iframe
             class="works__youtube"
             width="560"
