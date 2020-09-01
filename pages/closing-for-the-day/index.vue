@@ -2,7 +2,7 @@
   <div class="page-closing_for_the_day">
     <WorkDetails
       :iconSrc="'icon_none.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/VityjDLhqXU'"
       :soundCloudSrc="'884875474'"
       :prevImageSrc="'artwork_SoundScape.jpg'"
       :nextImageSrc="'artwork_mid.jpg'"

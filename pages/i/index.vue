@@ -2,7 +2,7 @@
   <div class="page-i">
     <WorkDetails
       :iconSrc="'icon_sawasick.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/WDgRkddgAx8'"
       :soundCloudSrc="'884879545'"
       :prevImageSrc="'artwork_silent-morning.jpg'"
       :nextImageSrc="'artwork_yoake.jpg'"

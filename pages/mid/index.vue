@@ -2,7 +2,7 @@
   <div class="page-mid">
     <WorkDetails
       :iconSrc="'icon_pepper.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/aAylWyuYt2Y'"
       :soundCloudSrc="'884876110'"
       :prevImageSrc="'artwork_closing-for-the-day.jpg'"
       :nextImageSrc="'artwork_eternally.jpg'"

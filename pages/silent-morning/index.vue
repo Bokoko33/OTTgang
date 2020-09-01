@@ -2,7 +2,7 @@
   <div class="page-silent-morning">
     <WorkDetails
       :iconSrc="'icon_none.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/Pj4cuEJ7_zM'"
       :soundCloudSrc="'884884753'"
       :prevImageSrc="'artwork_RevivingArmor.jpg'"
       :nextImageSrc="'artwork_i.jpg'"

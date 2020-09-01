@@ -2,7 +2,7 @@
   <div class="page-foaming">
     <WorkDetails
       :iconSrc="'icon_nekami.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/CVF1WUP4GZ0'"
       :soundCloudSrc="'884881756'"
       :prevImageSrc="'artwork_still-kids.jpg'"
       :nextImageSrc="'artwork_RevivingArmor.jpg'"

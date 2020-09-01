@@ -2,7 +2,7 @@
   <div class="page-yoake">
     <WorkDetails
       :iconSrc="'icon_sharp.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/OsI6bRXeyPU'"
       :soundCloudSrc="'884880247'"
       :prevImageSrc="'artwork_i.jpg'"
       :nextImageSrc="'artwork_memento.jpg'"

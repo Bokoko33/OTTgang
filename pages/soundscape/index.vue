@@ -2,7 +2,7 @@
   <div class="page-soundscape">
     <WorkDetails
       :iconSrc="'icon_shakadeesu.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/45C_OqJ-K-k'"
       :soundCloudSrc="'884874601'"
       :prevImageSrc="'artwork_himmel.jpg'"
       :nextImageSrc="'artwork_closing-for-the-day.jpg'"

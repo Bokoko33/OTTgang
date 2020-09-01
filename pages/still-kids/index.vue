@@ -2,7 +2,7 @@
   <div class="page-i">
     <WorkDetails
       :iconSrc="'icon_bomaye.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/kxEMkszIJIg'"
       :soundCloudSrc="'885263941'"
       :prevImageSrc="'artwork_rapid-fire.jpg'"
       :nextImageSrc="'artwork_foaming.jpg'"

@@ -2,7 +2,7 @@
   <div class="page-silly">
     <WorkDetails
       :iconSrc="'icon_meiji.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/fevsxG9kMIo'"
       :soundCloudSrc="'884878906'"
       :prevImageSrc="'artwork_memento.jpg'"
       :nextImageSrc="'artwork_himmel.jpg'"

@@ -2,7 +2,7 @@
   <div class="page-himmel">
     <WorkDetails
       :iconSrc="'icon_mona.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/MiP_d9dCu9c'"
       :soundCloudSrc="'884872567'"
       :prevImageSrc="'artwork_silly.jpg'"
       :nextImageSrc="'artwork_SoundScape.jpg'"

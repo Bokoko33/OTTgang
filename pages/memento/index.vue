@@ -2,7 +2,7 @@
   <div class="page-memento">
     <WorkDetails
       :iconSrc="'icon_veni.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/4vCQgwNHSJI'"
       :soundCloudSrc="'884878213'"
       :prevImageSrc="'artwork_yoake.jpg'"
       :nextImageSrc="'artwork_silly.jpg'"

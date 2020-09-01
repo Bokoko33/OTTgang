@@ -2,7 +2,7 @@
   <div class="page-reviving-armor">
     <WorkDetails
       :iconSrc="'icon_nekami.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/y6EfRADPbX8'"
       :soundCloudSrc="'884882260'"
       :prevImageSrc="'artwork_foaming.jpg'"
       :nextImageSrc="'artwork_silent-morning.jpg'"

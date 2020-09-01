@@ -2,10 +2,7 @@
   <div class="sc-panel" :class="{ 'panel--visible': $store.state.isShowLogo }">
     <div class="sc-panel__content">
       <div class="sc-panel__song">
-        <div
-          class="sc-panel__artwork"
-          :style="{ backgroundImage: 'url(' + artwork + ')' }"
-        ></div>
+        <div class="sc-panel__artwork" :style="{ backgroundImage: 'url(' + artwork + ')' }"></div>
         <p class="sc-panel__title">{{ title }}</p>
       </div>
       <div
@@ -38,7 +35,7 @@ export default {
         this.scPause.bind(null, i)
       );
     }
-    console.log(this.sc_widget);
+    // console.log(this.sc_widget);
   },
   methods: {
     handleButton() {

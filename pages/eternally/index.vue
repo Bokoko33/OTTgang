@@ -2,7 +2,7 @@
   <div class="page-eternally">
     <WorkDetails
       :iconSrc="'icon_cornbutter.jpg'"
-      :movieSrc="''"
+      :movieSrc="'https://www.youtube.com/embed/Ae8J7MoafrY'"
       :soundCloudSrc="'884876980'"
       :prevImageSrc="'artwork_mid.jpg'"
       :nextImageSrc="''"
