@@ -5,10 +5,11 @@
         <a
           class="footer__links__icon"
           href="https://www.youtube.com/channel/UCLXPDkT37WzhECyrk60_p8w/featured"
+          target="_blank"
         >
           <img class="footer__links__icon--img" src="~/assets/images/svg/icon_youtube.svg" alt />
         </a>
-        <a class="footer__links__icon" href="https://soundcloud.com/gang-ott">
+        <a class="footer__links__icon" href="https://soundcloud.com/gang-ott" target="_blank">
           <img class="footer__links__icon--img" src="~/assets/images/svg/icon_soundcloud.svg" alt />
         </a>
         <a class="footer__links__home" href="https://geikou-takuten.com/" target="_blank">卓展本サイトへ戻る</a>
