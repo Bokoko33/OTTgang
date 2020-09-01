@@ -13,11 +13,7 @@
       ></video>
     </figure>
     <h1 class="main-visual__logo" id="js-main-visual-logo">
-      <img
-        class="main-visual__logo__img"
-        src="~/assets/images/ott_logo.png"
-        alt="OTTgang"
-      />
+      <img class="main-visual__logo__img" src="~/assets/images/ott_logo.png" alt="OTTgang" />
     </h1>
     <div class="main-visual__side-text--left">
       <img src="~/assets/images/svg/sidetext.svg" alt="OTTgang" />
@@ -27,7 +23,8 @@
     </div>
     <p class="main-visual__catch-copy">
       we’re a gang :
-      <br />design genre <br />-less music.
+      <br />design genre
+      <br />-less music.
     </p>
     <div class="main-visual__scroll">scroll</div>
   </div>
@@ -114,21 +111,21 @@ export default {
   width: 20%;
   max-width: 90px;
   position: absolute;
-  @include device-pc {
-    max-width: 100px;
-  }
 }
 
 .main-visual__side-text--left {
   left: -27px;
   bottom: 140px;
+  @include device-pc {
+    top: 340px;
+  }
 }
 
 .main-visual__side-text--right {
   right: -15px;
   bottom: $height-sc-panel + 300px;
   @include device-pc {
-    top: 16vh;
+    top: 20px;
   }
 }
 
@@ -141,7 +138,7 @@ export default {
   bottom: $height-sc-panel + 100px;
   right: $margin-side;
   @include device-pc {
-    font-size: 54px;
+    font-size: 42px;
     bottom: 4vh;
     letter-spacing: 0.08em;
     line-height: 1.1;
