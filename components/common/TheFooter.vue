@@ -6,22 +6,12 @@
           class="footer__links__icon"
           href="https://www.youtube.com/channel/UCLXPDkT37WzhECyrk60_p8w/featured"
         >
-          <img
-            class="footer__links__icon--img"
-            src="~/assets/images/svg/icon_youtube.svg"
-            alt
-          />
+          <img class="footer__links__icon--img" src="~/assets/images/svg/icon_youtube.svg" alt />
         </a>
         <a class="footer__links__icon" href="https://soundcloud.com/gang-ott">
-          <img
-            class="footer__links__icon--img"
-            src="~/assets/images/svg/icon_soundcloud.svg"
-            alt
-          />
+          <img class="footer__links__icon--img" src="~/assets/images/svg/icon_soundcloud.svg" alt />
         </a>
-        <a class="footer__links__home" href="https://geikou-takuten.com/"
-          >卓展本サイトへ戻る</a
-        >
+        <a class="footer__links__home" href="https://geikou-takuten.com/" target="_blank">卓展本サイトへ戻る</a>
       </div>
       <p class="footer__copyright">&copy;2020 卓展 OTTgang</p>
     </div>
