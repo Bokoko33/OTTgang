@@ -5,21 +5,30 @@
     </div>
     <div class="podcast__describe">
       <DecoLine />
-      <p class="podcast__describe__text">
-        OTTgang卓長のボマイェが、OTTgangのコンセプトや作品についてトークするラジオアーカイブ！ぜひ覗いてみてください！
-      </p>
+      <p
+        class="podcast__describe__text"
+      >OTTgang卓長のボマイェが、OTTgangのコンセプトや作品についてトークするラジオアーカイブ！ぜひ覗いてみてください！</p>
     </div>
-    <div class="podcast__link">埋め込み</div>
+    <div class="podcast__link__wrap">
+      <iframe
+        class="podcast__link"
+        src="https://anchor.fm/takuten-2020/embed/episodes/01-OTT-gang-eiumtm/a-a33eba9"
+        height="102px"
+        width="400px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+    </div>
   </section>
 </template>
 
 <script>
-import DecoLine from '~/components/parts/DecoLine'
+import DecoLine from '~/components/parts/DecoLine';
 export default {
   components: {
     DecoLine,
   },
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -31,10 +40,17 @@ export default {
   font-size: 14px;
 }
 
+.podcast__link__wrap {
+  width: 100%;
+  height: 102px;
+  margin-top: 20px;
+  @include device-pc {
+    height: 162px;
+  }
+}
+
 .podcast__link {
   width: 100%;
-  height: 20vw;
-  margin-top: 20px;
-  border: solid 1px white;
+  height: 100%;
 }
 </style>

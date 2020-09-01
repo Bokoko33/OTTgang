@@ -2,7 +2,7 @@
   <div class="page-himmel">
     <WorkDetails
       :iconSrc="'icon_mona.jpg'"
-      :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
+      :movieSrc="''"
       :soundCloudSrc="'884872567'"
       :prevImageSrc="'artwork_silly.jpg'"
       :nextImageSrc="'artwork_SoundScape.jpg'"
@@ -11,9 +11,7 @@
     >
       <template v-slot:title>himmel</template>
       <template v-slot:composer>mone</template>
-      <template v-slot:caption>
-        リズミカルに並ぶ雲、美しい色の変化、キラキラの星空など、様々な表情を見せてくれる空をイメージした曲です。
-      </template>
+      <template v-slot:caption>リズミカルに並ぶ雲、美しい色の変化、キラキラの星空など、様々な表情を見せてくれる空をイメージした曲です。</template>
     </WorkDetails>
   </div>
 </template>

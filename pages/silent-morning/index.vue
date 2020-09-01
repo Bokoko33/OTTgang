@@ -2,7 +2,7 @@
   <div class="page-silent-morning">
     <WorkDetails
       :iconSrc="'icon_none.jpg'"
-      :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
+      :movieSrc="''"
       :soundCloudSrc="'884884753'"
       :prevImageSrc="'artwork_RevivingArmor.jpg'"
       :nextImageSrc="'artwork_i.jpg'"
@@ -11,9 +11,7 @@
     >
       <template v-slot:title>Silent Morning</template>
       <template v-slot:composer>pige</template>
-      <template v-slot:caption>
-        Hiphopを作りました。徹夜して迎えた朝をイメージして作りました。
-      </template>
+      <template v-slot:caption>Hiphopを作りました。徹夜して迎えた朝をイメージして作りました。</template>
     </WorkDetails>
   </div>
 </template>

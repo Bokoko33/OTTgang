@@ -5,11 +5,7 @@
       <small class="works__heading__sub">14tracks</small>
     </div>
     <ul class="works__list">
-      <li
-        class="works__list__item"
-        v-for="(work, index) in worksData"
-        :key="index"
-      >
+      <li class="works__list__item" v-for="(work, index) in worksData" :key="index">
         <div class="works__list__sc">
           <p class="works__list__sc--alt">Loading...</p>
           <iframe
@@ -34,7 +30,7 @@
               <p class="works__list__composer--name">{{ work.composer }}</p>
             </div>
           </div>
-          <a :href="work.link" class="works__list__link"> 詳細を見る </a>
+          <a :href="work.link" class="works__list__link">詳細を見る</a>
         </div>
       </li>
     </ul>
@@ -55,7 +51,7 @@ export default {
         {
           title: 'Still Kids',
           composer: 'Bomaye',
-          soundCloudsrc: '669062363',
+          soundCloudsrc: '885263941',
           link: '/still-kids',
         },
         {

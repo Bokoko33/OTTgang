@@ -2,7 +2,7 @@
   <div class="page-i">
     <WorkDetails
       :iconSrc="'icon_sawasick.jpg'"
-      :movieSrc="'https://www.youtube.com/embed/7eZIbmq5Jiw'"
+      :movieSrc="''"
       :soundCloudSrc="'884879545'"
       :prevImageSrc="'artwork_silent-morning.jpg'"
       :nextImageSrc="'artwork_yoake.jpg'"
@@ -12,8 +12,8 @@
       <template v-slot:title>i</template>
       <template v-slot:composer>sawasick</template>
       <template v-slot:caption>
-        大好きなアップリフティングトランスをミクさんに歌ってもらいました。<br />
-        今の自分全てを落とし込んだ曲です。
+        大好きなアップリフティングトランスをミクさんに歌ってもらいました。
+        <br />今の自分全てを落とし込んだ曲です。
       </template>
     </WorkDetails>
   </div>
