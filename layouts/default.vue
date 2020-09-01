@@ -6,7 +6,7 @@
     <Nuxt />
     <TheNavIcon />
     <TheNavWindow />
-    <TheSCPanel />
+    <!-- <TheSCPanel /> -->
     <TheFooter />
   </div>
 </template>
@@ -18,7 +18,7 @@ import TheLogo from '~/components/common/TheLogo';
 import TheOverLay from '~/components/common/TheOverLay';
 import TheNavIcon from '~/components/common/TheNavIcon';
 import TheNavWindow from '~/components/common/TheNavWindow';
-import TheSCPanel from '~/components/common/TheSCPanel';
+// import TheSCPanel from '~/components/common/TheSCPanel';
 
 export default {
   components: {
@@ -28,7 +28,7 @@ export default {
     TheOverLay,
     TheNavIcon,
     TheNavWindow,
-    TheSCPanel,
+    // TheSCPanel,
   },
   methods: {
     switchModal() {

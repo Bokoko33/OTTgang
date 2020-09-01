@@ -4,7 +4,7 @@
       <h2 class="heading">Works</h2>
       <small class="works__heading__sub">14tracks</small>
     </div>
-    <ul class="works__list">
+    <!-- <ul class="works__list">
       <li class="works__list__item" v-for="(work, index) in worksData" :key="index">
         <div class="works__list__sc">
           <p class="works__list__sc--alt">Loading...</p>
@@ -33,7 +33,17 @@
           <a :href="work.link" class="works__list__link">詳細を見る</a>
         </div>
       </li>
-    </ul>
+    </ul>-->
+
+    <p>
+      現在、一時的な不具合によりSoundCloudの視聴ができない状態です。
+      <br />Youtubeの作品は引き続きお楽しみいただけます。
+    </p>
+    <a
+      class="alert-youtube"
+      href="https://www.youtube.com/channel/UCLXPDkT37WzhECyrk60_p8w/featured"
+      target="_blank"
+    >YouTubeチャンネルへ</a>
   </section>
 </template>
 
@@ -133,6 +143,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.alert-youtube {
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
 .works__heading {
   display: flex;
   align-items: center;
