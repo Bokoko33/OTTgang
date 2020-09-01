@@ -8,7 +8,7 @@
         class="introduction__movie"
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/TX_1vMLHVr8"
+        src="https://www.youtube.com/embed/1NUJ2HICTYc"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -24,6 +24,7 @@
     </div>
   </section>
 </template>
+
 
 <script>
 import DecoLine from '~/components/parts/DecoLine';
