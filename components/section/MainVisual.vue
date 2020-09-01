@@ -115,7 +115,7 @@ export default {
 
 .main-visual__side-text--left {
   left: -27px;
-  bottom: 140px;
+  bottom: 120px;
   @include device-pc {
     top: 340px;
   }
@@ -148,7 +148,7 @@ export default {
 .main-visual__scroll {
   position: absolute;
   left: $margin-side;
-  bottom: 3vh;
+  bottom: 15px;
   writing-mode: vertical-lr;
   font-size: 12px;
   font-weight: 700;
