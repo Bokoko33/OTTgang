@@ -4,10 +4,10 @@
       :iconSrc="'icon_nekami.jpg'"
       :movieSrc="'https://www.youtube.com/embed/y6EfRADPbX8'"
       :soundCloudSrc="'884882260'"
-      :prevImageSrc="'artwork_foaming.jpg'"
-      :nextImageSrc="'artwork_silent-morning.jpg'"
-      :prevLink="'/foaming'"
-      :nextLink="'/silent-morning'"
+      :prevImageSrc="''"
+      :nextImageSrc="'artwork_still-kids.jpg'"
+      :prevLink="''"
+      :nextLink="'/still-kids'"
     >
       <template v-slot:title>Reviving Armor</template>
       <template v-slot:composer>nekami</template>

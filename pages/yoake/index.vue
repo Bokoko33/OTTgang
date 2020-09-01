@@ -5,9 +5,9 @@
       :movieSrc="'https://www.youtube.com/embed/OsI6bRXeyPU'"
       :soundCloudSrc="'884880247'"
       :prevImageSrc="'artwork_i.jpg'"
-      :nextImageSrc="'artwork_memento.jpg'"
+      :nextImageSrc="'artwork_foaming.jpg'"
       :prevLink="'/i'"
-      :nextLink="'/memento'"
+      :nextLink="'/foaming'"
     >
       <template v-slot:title>夜明け</template>
       <template v-slot:composer>シャープ</template>

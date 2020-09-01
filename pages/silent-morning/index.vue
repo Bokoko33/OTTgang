@@ -4,10 +4,10 @@
       :iconSrc="'icon_none.jpg'"
       :movieSrc="'https://www.youtube.com/embed/Pj4cuEJ7_zM'"
       :soundCloudSrc="'884884753'"
-      :prevImageSrc="'artwork_RevivingArmor.jpg'"
-      :nextImageSrc="'artwork_i.jpg'"
-      :prevLink="'/reviving-armor'"
-      :nextLink="'/i'"
+      :prevImageSrc="'artwork_rapid-fire.jpg'"
+      :nextImageSrc="''"
+      :prevLink="'/rapid-fire'"
+      :nextLink="''"
     >
       <template v-slot:title>Silent Morning</template>
       <template v-slot:composer>pige</template>

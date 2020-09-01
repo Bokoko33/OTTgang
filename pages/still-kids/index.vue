@@ -4,10 +4,10 @@
       :iconSrc="'icon_bomaye.jpg'"
       :movieSrc="'https://www.youtube.com/embed/kxEMkszIJIg'"
       :soundCloudSrc="'885263941'"
-      :prevImageSrc="'artwork_rapid-fire.jpg'"
-      :nextImageSrc="'artwork_foaming.jpg'"
-      :prevLink="'/rapid-fire'"
-      :nextLink="'/foaming'"
+      :prevImageSrc="'artwork_RevivingArmor.jpg'"
+      :nextImageSrc="'artwork_himmel.jpg'"
+      :prevLink="'/reviving-armor'"
+      :nextLink="'/himmel'"
     >
       <template v-slot:title>Still Kids</template>
       <template v-slot:composer>Bomaye</template>

@@ -4,10 +4,10 @@
       :iconSrc="'icon_nekami.jpg'"
       :movieSrc="'https://www.youtube.com/embed/CVF1WUP4GZ0'"
       :soundCloudSrc="'884881756'"
-      :prevImageSrc="'artwork_still-kids.jpg'"
-      :nextImageSrc="'artwork_RevivingArmor.jpg'"
-      :prevLink="'/still-kids'"
-      :nextLink="'/reviving-armor'"
+      :prevImageSrc="'artwork_yoake.jpg'"
+      :nextImageSrc="'artwork_rapid-fire.jpg'"
+      :prevLink="'/yoake'"
+      :nextLink="'/rapid-fire'"
     >
       <template v-slot:title>foaming</template>
       <template v-slot:composer>nekami</template>

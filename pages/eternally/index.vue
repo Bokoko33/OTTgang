@@ -5,9 +5,9 @@
       :movieSrc="'https://www.youtube.com/embed/Ae8J7MoafrY'"
       :soundCloudSrc="'884876980'"
       :prevImageSrc="'artwork_mid.jpg'"
-      :nextImageSrc="''"
+      :nextImageSrc="'artwork_memento.jpg'"
       :prevLink="'/mid'"
-      :nextLink="''"
+      :nextLink="'memento'"
     >
       <template v-slot:title>Eternally</template>
       <template v-slot:composer>コーンバター</template>

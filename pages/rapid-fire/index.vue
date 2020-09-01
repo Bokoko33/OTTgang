@@ -4,10 +4,10 @@
       :iconSrc="'icon_bomaye.jpg'"
       :movieSrc="'https://www.youtube.com/embed/dq86RRpsZSk'"
       :soundCloudSrc="'884960956'"
-      :prevImageSrc="''"
-      :nextImageSrc="'artwork_still-kids.jpg'"
-      :prevLink="''"
-      :nextLink="'/still-kids'"
+      :prevImageSrc="'artwork_foaming.jpg'"
+      :nextImageSrc="'artwork_silent-morning.jpg'"
+      :prevLink="'foaming'"
+      :nextLink="'/silent-morning'"
     >
       <template v-slot:title>RAPID FIRE</template>
       <template v-slot:composer>Bomaye</template>

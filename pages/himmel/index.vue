@@ -4,9 +4,9 @@
       :iconSrc="'icon_mona.jpg'"
       :movieSrc="'https://www.youtube.com/embed/MiP_d9dCu9c'"
       :soundCloudSrc="'884872567'"
-      :prevImageSrc="'artwork_silly.jpg'"
+      :prevImageSrc="'artwork_still-kids.jpg'"
       :nextImageSrc="'artwork_SoundScape.jpg'"
-      :prevLink="'/silly'"
+      :prevLink="'/still-kids'"
       :nextLink="'/soundscape'"
     >
       <template v-slot:title>himmel</template>

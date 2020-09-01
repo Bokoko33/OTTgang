@@ -43,58 +43,16 @@ export default {
     return {
       worksData: [
         {
-          title: 'RAPID FIRE',
-          composer: 'Bomaye',
-          soundCloudsrc: '884960956',
-          link: '/rapid-fire',
-        },
-        {
-          title: 'Still Kids',
-          composer: 'Bomaye',
-          soundCloudsrc: '885263941',
-          link: '/still-kids',
-        },
-        {
-          title: 'foaming',
-          composer: 'nekami',
-          soundCloudsrc: '884881756',
-          link: '/foaming',
-        },
-        {
           title: 'Reviving Armor',
           composer: 'nekami',
           soundCloudsrc: '884882260',
           link: '/reviving-armor',
         },
         {
-          title: 'Silent Morning',
-          composer: 'pige',
-          soundCloudsrc: '884884753',
-          link: '/silent-morning',
-        },
-        {
-          title: 'i',
-          composer: 'sawasick',
-          soundCloudsrc: '884879545',
-          link: '/i',
-        },
-        {
-          title: '夜明け',
-          composer: 'シャープ',
-          soundCloudsrc: '884880247',
-          link: '/yoake',
-        },
-        {
-          title: 'memento',
-          composer: 'veni',
-          soundCloudsrc: '884878213',
-          link: '/memento',
-        },
-        {
-          title: 'Silly',
-          composer: '明治',
-          soundCloudsrc: '884878906',
-          link: '/silly',
+          title: 'Still Kids',
+          composer: 'Bomaye',
+          soundCloudsrc: '885263941',
+          link: '/still-kids',
         },
         {
           title: 'himmel',
@@ -125,6 +83,48 @@ export default {
           composer: 'コーンバター',
           soundCloudsrc: '884876980',
           link: '/eternally',
+        },
+        {
+          title: 'memento.',
+          composer: 'veni',
+          soundCloudsrc: '884878213',
+          link: '/memento',
+        },
+        {
+          title: 'Silly',
+          composer: '明治',
+          soundCloudsrc: '884878906',
+          link: '/silly',
+        },
+        {
+          title: 'i',
+          composer: 'sawasick',
+          soundCloudsrc: '884879545',
+          link: '/i',
+        },
+        {
+          title: '夜明け',
+          composer: 'シャープ',
+          soundCloudsrc: '884880247',
+          link: '/yoake',
+        },
+        {
+          title: 'foaming',
+          composer: 'nekami',
+          soundCloudsrc: '884881756',
+          link: '/foaming',
+        },
+        {
+          title: 'RAPID FIRE',
+          composer: 'Bomaye',
+          soundCloudsrc: '884960956',
+          link: '/rapid-fire',
+        },
+        {
+          title: 'Silent Morning',
+          composer: 'pige',
+          soundCloudsrc: '884884753',
+          link: '/silent-morning',
         },
       ],
     };

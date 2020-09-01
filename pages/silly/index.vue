@@ -5,9 +5,9 @@
       :movieSrc="'https://www.youtube.com/embed/fevsxG9kMIo'"
       :soundCloudSrc="'884878906'"
       :prevImageSrc="'artwork_memento.jpg'"
-      :nextImageSrc="'artwork_himmel.jpg'"
+      :nextImageSrc="'artwork_i.jpg'"
       :prevLink="'/memento'"
-      :nextLink="'/himmel'"
+      :nextLink="'/i'"
     >
       <template v-slot:title>Silly</template>
       <template v-slot:composer>明治</template>
