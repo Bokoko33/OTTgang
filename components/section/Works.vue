@@ -4,9 +4,9 @@
       <h2 class="heading">Works</h2>
       <small class="works__heading__sub">14tracks</small>
     </div>
-    <!-- <ul class="works__list">
+    <ul class="works__list">
       <li class="works__list__item" v-for="(work, index) in worksData" :key="index">
-        <div class="works__list__sc">
+        <!-- <div class="works__list__sc">
           <p class="works__list__sc--alt">Loading...</p>
           <iframe
             class="works__list__sc--embed sc-widget"
@@ -21,6 +21,17 @@
               '&color=%23b92c92&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true'
             "
           ></iframe>
+        </div>-->
+        <div class="works__youtube--wrap">
+          <iframe
+            class="works__youtube"
+            width="560"
+            height="315"
+            :src="work.youtubeSrc"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
         <div class="works__list__data">
           <div class="works__list__info">
@@ -33,9 +44,9 @@
           <a :href="work.link" class="works__list__link">詳細を見る</a>
         </div>
       </li>
-    </ul>-->
+    </ul>
 
-    <p>
+    <!-- <p>
       現在、一時的な不具合によりSoundCloudの視聴ができない状態です。
       <br />Youtubeの作品は引き続きお楽しみいただけます。
     </p>
@@ -43,7 +54,7 @@
       class="alert-youtube"
       href="https://www.youtube.com/channel/UCLXPDkT37WzhECyrk60_p8w/featured"
       target="_blank"
-    >YouTubeチャンネルへ</a>
+    >YouTubeチャンネルへ</a>-->
   </section>
 </template>
 
@@ -56,84 +67,98 @@ export default {
           title: 'Reviving Armor',
           composer: 'nekami',
           soundCloudsrc: '884882260',
+          youtubeSrc: 'https://www.youtube.com/embed/y6EfRADPbX8',
           link: '/reviving-armor',
         },
         {
           title: 'Still Kids',
           composer: 'Bomaye',
           soundCloudsrc: '885263941',
+          youtubeSrc: 'https://www.youtube.com/embed/kxEMkszIJIg',
           link: '/still-kids',
         },
         {
           title: 'himmel',
           composer: 'mona',
           soundCloudsrc: '884872567',
+          youtubeSrc: 'https://www.youtube.com/embed/MiP_d9dCu9c',
           link: '/himmel',
         },
         {
           title: 'SoundScape <span class="featuring">feat.カゼヒキ</span>',
           composer: 'シャカデェス',
           soundCloudsrc: '884874601',
+          youtubeSrc: 'https://www.youtube.com/embed/45C_OqJ-K-k',
           link: '/soundscape',
         },
         {
           title: 'Closing for the day',
           composer: '大人の階段ノボル',
           soundCloudsrc: '884875474',
+          youtubeSrc: 'https://www.youtube.com/embed/VityjDLhqXU',
           link: '/closing-for-the-day',
         },
         {
           title: 'mid',
           composer: 'pepper',
           soundCloudsrc: '884876110',
+          youtubeSrc: 'https://www.youtube.com/embed/aAylWyuYt2Y',
           link: '/mid',
         },
         {
           title: 'Eternally',
           composer: 'コーンバター',
           soundCloudsrc: '884876980',
+          youtubeSrc: 'https://www.youtube.com/embed/Ae8J7MoafrY',
           link: '/eternally',
         },
         {
           title: 'memento.',
           composer: 'veni',
           soundCloudsrc: '884878213',
+          youtubeSrc: 'https://www.youtube.com/embed/4vCQgwNHSJI',
           link: '/memento',
         },
         {
           title: 'Silly',
           composer: '明治',
           soundCloudsrc: '884878906',
+          youtubeSrc: 'https://www.youtube.com/embed/fevsxG9kMIo',
           link: '/silly',
         },
         {
           title: 'i',
           composer: 'sawasick',
           soundCloudsrc: '884879545',
+          youtubeSrc: 'https://www.youtube.com/embed/WDgRkddgAx8',
           link: '/i',
         },
         {
           title: '夜明け',
           composer: 'シャープ',
           soundCloudsrc: '884880247',
+          youtubeSrc: 'https://www.youtube.com/embed/OsI6bRXeyPU',
           link: '/yoake',
         },
         {
           title: 'foaming',
           composer: 'nekami',
           soundCloudsrc: '884881756',
+          youtubeSrc: 'https://www.youtube.com/embed/CVF1WUP4GZ0',
           link: '/foaming',
         },
         {
           title: 'RAPID FIRE',
           composer: 'Bomaye',
           soundCloudsrc: '884960956',
+          youtubeSrc: 'https://www.youtube.com/embed/dq86RRpsZSk',
           link: '/rapid-fire',
         },
         {
           title: 'Silent Morning',
           composer: 'pige',
           soundCloudsrc: '884884753',
+          youtubeSrc: 'https://www.youtube.com/embed/Pj4cuEJ7_zM',
           link: '/silent-morning',
         },
       ],
@@ -218,6 +243,20 @@ export default {
   width: 100%;
   height: 100%;
   position: relative;
+}
+
+.works__youtube--wrap {
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.works__youtube {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .works__list__data {

@@ -9,7 +9,7 @@
           <img
             class="work-details__composer__img"
             :src="require(`~/assets/images/icons/${iconSrc}`)"
-            alt=""
+            alt
           />
           <p class="work-details__composer__name">
             <slot name="composer" />
@@ -33,7 +33,7 @@
           <div class="work-details__sc">
             <h2 class="heading--work-details">SoundCloud</h2>
             <div class="work-details__sc--wrap">
-              <iframe
+              <!-- <iframe
                 class="work-details__sc--embed sc-widget"
                 width="100%"
                 height="166"
@@ -45,7 +45,8 @@
                   soundCloudSrc +
                   '&color=%23b92c92&auto_play=false&hide_related=false&show_comments=tfalse&show_user=true&show_reposts=false&show_teaser=false'
                 "
-              ></iframe>
+              ></iframe>-->
+              <p style="font-size:12px">現在復旧作業中です。もうしばらくお待ちください。</p>
             </div>
           </div>
           <div class="work-details__caption">
@@ -73,15 +74,13 @@
             <p
               v-if="prevLink"
               class="work-details__nav__text work-details__nav__text--prev"
-            >
-              Previous
-            </p>
+            >Previous</p>
           </a>
           <a href="/#works" class="work-details__nav__works-top">
             <img
               class="work-details__nav__works-top--img"
               src="~/assets/images/svg/icon_works_top.svg"
-              alt=""
+              alt
             />
           </a>
           <a
@@ -95,12 +94,7 @@
               :src="require(`~/assets/images/artworks/${nextImageSrc}`)"
               alt="次の作品のアートワーク画像"
             />
-            <p
-              v-if="nextLink"
-              class="work-details__nav__text work-details__nav__text--next"
-            >
-              Next
-            </p>
+            <p v-if="nextLink" class="work-details__nav__text work-details__nav__text--next">Next</p>
           </a>
         </div>
       </div>
