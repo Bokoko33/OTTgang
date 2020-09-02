@@ -4,11 +4,7 @@
       <h2 class="heading">Member</h2>
     </div>
     <ul class="member__list">
-      <li
-        class="member__list__item"
-        v-for="(member, index) in memberList"
-        :key="index"
-      >
+      <li class="member__list__item" v-for="(member, index) in memberList" :key="index">
         <div class="member__list__data">
           <img class="member__list__icon" :src="member.icon_path" />
           <p class="member__list__name">
@@ -16,9 +12,11 @@
             {{ member.name }}
           </p>
         </div>
-        <small class="member__list__position" v-if="member.role !== ''">{{
+        <small class="member__list__position" v-if="member.role !== ''">
+          {{
           member.role
-        }}</small>
+          }}
+        </small>
       </li>
     </ul>
   </section>
@@ -90,7 +88,7 @@ export default {
           role: '',
         },
         {
-          icon_path: require('~/assets/images/icons/icon_none.jpg'),
+          icon_path: require('~/assets/images/icons/icon_noboru.jpg'),
           class: '1M',
           name: '大人の階段ノボル',
           role: '',
