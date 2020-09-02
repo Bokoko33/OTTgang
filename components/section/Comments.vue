@@ -16,8 +16,8 @@
     </form>
     <div v-else class="comments__form--sucess">
       <p class="comments__form--sucess__text">
-        ご回答ありがとうございます。<br />
-        あなたのご感想はgangたちの創作の糧となるでしょう。
+        ご回答ありがとうございます。
+        <br />あなたのご感想はgangたちの創作の糧となるでしょう。
       </p>
     </div>
   </section>
@@ -102,6 +102,7 @@ export default {
   background-color: transparent;
   border: solid 1px white;
   outline: none;
+  font-size: 16px;
   @include device-pc {
     height: 320px;
   }
