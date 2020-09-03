@@ -12,9 +12,9 @@
     <div class="podcast__link__wrap">
       <iframe
         class="podcast__link"
-        src="https://anchor.fm/takuten-2020/embed/episodes/01-OTT-gang-eiumtm/a-a33eba9"
-        height="102px"
-        width="400px"
+        src="https://anchor.fm/takuten-2020/embed/episodes/01-OTT-gang-ej2g55/a-a344flh"
+        height="102"
+        width="400"
         frameborder="0"
         scrolling="no"
       ></iframe>
