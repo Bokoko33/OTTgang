@@ -15,3 +15,13 @@
     </WorkDetails>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: '夜明け',
+    };
+  },
+};
+</script>

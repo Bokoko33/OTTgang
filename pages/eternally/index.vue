@@ -7,7 +7,7 @@
       :prevImageSrc="'artwork_mid.jpg'"
       :nextImageSrc="'artwork_memento.jpg'"
       :prevLink="'/mid'"
-      :nextLink="'memento'"
+      :nextLink="'/memento'"
     >
       <template v-slot:title>Eternally</template>
       <template v-slot:composer>コーンバター</template>
@@ -15,3 +15,13 @@
     </WorkDetails>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Eternally',
+    };
+  },
+};
+</script>
