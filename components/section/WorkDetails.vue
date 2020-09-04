@@ -103,8 +103,6 @@
 </template>
 
 <script>
-import DecoLine from '~/components/parts/DecoLine';
-
 export default {
   props: {
     iconSrc: {
@@ -128,9 +126,6 @@ export default {
     nextLink: {
       type: String,
     },
-  },
-  components: {
-    DecoLine,
   },
   mounted() {
     this.$store.commit('showLogo');

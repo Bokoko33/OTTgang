@@ -22,15 +22,6 @@
   </section>
 </template>
 
-<script>
-import DecoLine from '~/components/parts/DecoLine';
-export default {
-  components: {
-    DecoLine,
-  },
-};
-</script>
-
 <style lang="scss" scoped>
 .podcast__describe {
   margin-top: 40px;
