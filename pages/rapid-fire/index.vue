@@ -18,13 +18,3 @@
     </WorkDetails>
   </div>
 </template>
-
-<script>
-import WorkDetails from '~/components/section/WorkDetails';
-
-export default {
-  components: {
-    WorkDetails,
-  },
-};
-</script>
