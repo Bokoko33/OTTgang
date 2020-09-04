@@ -30,10 +30,5 @@ export default {
     TheNavWindow,
     // TheSCPanel,
   },
-  methods: {
-    switchModal() {
-      this.isOpen = !this.isOpen;
-    },
-  },
 };
 </script>
