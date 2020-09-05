@@ -6,7 +6,17 @@
     <Nuxt />
     <TheNavIcon />
     <TheNavWindow />
-    <!-- <TheSCPanel /> -->
+    <TheScPanel />
     <TheFooter />
   </div>
 </template>
+
+// <script>
+// import TheSCPanel from '~/components/common/TheSCPanel';
+// export default {
+//   components: {
+//     TheSCPanel,
+//   },
+// };
+//
+</script>

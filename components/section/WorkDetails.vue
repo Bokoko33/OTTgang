@@ -33,7 +33,7 @@
           <div class="work-details__sc">
             <h2 class="heading--work-details">SoundCloud</h2>
             <div class="work-details__sc--wrap">
-              <!-- <iframe
+              <iframe
                 class="work-details__sc--embed sc-widget"
                 width="100%"
                 height="166"
@@ -45,8 +45,8 @@
                   soundCloudSrc +
                   '&color=%23b92c92&auto_play=false&hide_related=false&show_comments=tfalse&show_user=true&show_reposts=false&show_teaser=false'
                 "
-              ></iframe>-->
-              <p style="font-size:12px">現在復旧作業中です。もうしばらくお待ちください。</p>
+              ></iframe>
+              <!-- <p style="font-size:12px">現在復旧作業中です。もうしばらくお待ちください。</p> -->
             </div>
           </div>
           <div class="work-details__caption">
